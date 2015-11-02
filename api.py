@@ -21,4 +21,3 @@ data = json.loads(valid_json)
 # Grabbing PDF links from nested key "pdfLink" and added them to first part of State Department search HTML
 for i in data['Results']:
 	print 'https://foia.state.gov/searchapp/' + i['pdfLink']
-	
